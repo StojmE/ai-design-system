@@ -1,0 +1,55 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# AI Design System
+
+Components, tokens and patterns for AI products. Clean and minimal: indigo accent, Plus Jakarta Sans, 4px corners, Light and Dark themes, WCAG 2.2 AA.
+
+Use the **theme switch** in the toolbar (paintbrush icon) to see every story in Light or Dark. The **Accessibility** tab under each story runs an automated WCAG check.
+
+## Install
+
+```bash
+npm install ai-design-system
+```
+
+```jsx
+import 'ai-design-system/styles.css';            // tokens + fonts + component styles
+import { Button, PromptComposer } from 'ai-design-system';
+
+<div data-theme="light">                         {/* or "dark"; omit to follow the OS */}
+  <Button icon="sparkle">Generate with AI</Button>
+  <PromptComposer model="Fast" onSend={(text) => send(text)} />
+</div>
+```
+
+Until the package is published, install it from the repo folder: `npm install ../ai-design-system`.
+
+## What each story gives you
+
+| Tab | Use it for |
+|---|---|
+| **Docs** | Usage guidelines, specs, a props table and a live example with a copyable code snippet |
+| **Playground** | Change props in **Controls**; the code snippet in Docs updates to match |
+| **All states** | Default, hover, focus, pressed, disabled and error side by side |
+| **Accessibility** | Automated contrast, labels and roles check for the story |
+
+## Tokens in code
+
+| Need | Import |
+|---|---|
+| CSS variables (`var(--bg-brand)`, `var(--space-lg)`…) | `ai-design-system/tokens.css` |
+| Tailwind | `presets: [require('ai-design-system/tailwind')]` |
+| TypeScript / React Native values | `import { color, spacing } from 'ai-design-system/tokens'` |
+
+Never hard-code colors or spacing: every value has a token, and every token has a Light and a Dark value. See **Foundations**.
+
+## Rules for building with it
+
+- One **primary** button per view; Secondary and Ghost for everything else.
+- Every interactive element keeps its `focus-ring`; icon-only buttons always get a `label`.
+- On touch screens use the **Mobile (touch)** components: 44px targets, 16px field text, sheets from the bottom.
+- Copy follows the UX copy rules: sentence case, verbs on buttons, no exclamation marks or emoji.
+
+The full written guide (brand, patterns, UX copy, audit) is in the repo: `npm run dev`, or `docs/`.

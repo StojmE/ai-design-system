@@ -3,6 +3,7 @@
 Tokens, React components, patterns and docs for AI products. Clean and minimal: indigo accent, Plus Jakarta Sans, 4px corners, Light and Dark themes, WCAG 2.2 AA.
 
 - **The full guide** runs locally with `npm run dev`, the same as the Claude docs site, and updates as you edit `docs/` or `tokens/`
+- **Storybook** for handing components to developers: `npm run storybook`
 - **66 components** (including 3 pattern pages): buttons, forms, navigation, chat, citations, reasoning, status, overlays, and touch components for mobile
 - **Tokens** in CSS, Tailwind, TypeScript and W3C JSON, all generated from one file
 - **Docs**: brand attributes, how to use, specs, patterns, UX copy rules, audit
@@ -21,6 +22,8 @@ npm run dev        # opens the full guide in your browser
 | Command | What it does |
 |---|---|
 | `npm run dev` | Opens the full guide at http://localhost:5173: overview, brand, how to use, foundations, every component with live preview, usage, specs and props, patterns, UX copy, audit. Side menu, search, Light/Dark switch. |
+| `npm run storybook` | Opens Storybook at http://localhost:6006: every component with live controls, auto-generated docs and props tables, all states, code snippets, an accessibility check per story, and a Light/Dark toolbar switch |
+| `npm run build-storybook` | Builds a static Storybook to `storybook-static/` to host for developers (Netlify, Vercel, GitHub Pages, Chromatic) |
 | `npm run build:guide` | Builds a static copy of the guide to `dist-guide/` you can host anywhere |
 | `npm run tokens` | Rebuilds `src/tokens/*` from `tokens/tokens.json` |
 | `npm run audit` | Checks WCAG contrast in both themes and scans component CSS for raw colors, missing focus styles and off-scale type |
@@ -41,6 +44,8 @@ src/
   components/index.js     ← all components (React 18)
   components/index.d.ts   ← props for every component
   index.js                ← package entry
+stories/                  ← Storybook stories, one per component (+ Introduction and token pages)
+.storybook/               ← Storybook config: theme switch, accessibility checks, branding
 playground/               ← the guide app (npm run dev); reads docs/, tokens/ and src/ live
 docs/                     ← overview, brand, how to use, specs, patterns, UX copy, audit, component guidelines
 ```
@@ -74,6 +79,8 @@ Set `data-theme="dark"` on any container to switch it. Without a `data-theme`, t
 4. Update the component's guidelines in `docs/10-components.md` and its spec in `docs/04-specs-components.md`.
 
 ## Where else it lives
+
+- **Hosted Storybook for developers:** https://claude.ai/artifact/VtDF1SnoYiUFFa7hjeWx6w
 
 - **Claude design system page:** https://claude.ai/artifact/N8kgKbW92mELJnZDvWu8Y7
 - **Docs site with side menu:** https://claude.ai/artifact/BHevbLiMQiQVdHnB1p8LP2

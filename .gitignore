@@ -4,3 +4,4 @@ dist-playground/
 dist-guide/
 .DS_Store
 *.log
+storybook-static/

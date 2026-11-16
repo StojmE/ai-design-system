@@ -1,0 +1,3 @@
+/* Story canvas follows the active theme. */
+html, body { background: var(--bg-default); color: var(--text-primary); font-family: var(--font-sans); }
+.docs-story { background: var(--bg-default); }

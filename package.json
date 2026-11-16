@@ -32,17 +32,26 @@
     "build": "npm run tokens && vite build --config vite.lib.config.js",
     "preview": "vite preview",
     "guide": "vite",
-    "build:guide": "vite build"
+    "build:guide": "vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build -o storybook-static"
   },
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^8.4.7",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-themes": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
     "@vitejs/plugin-react": "4.3.4",
     "marked": "12.0.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "storybook": "^8.4.7",
     "vite": "5.4.11"
   }
 }

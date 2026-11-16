@@ -48,6 +48,19 @@
         "problemMatcher": []
       },
       {
+        "label": "Storybook (dev server)",
+        "type": "npm",
+        "script": "storybook",
+        "isBackground": true,
+        "problemMatcher": []
+      },
+      {
+        "label": "Build Storybook (static)",
+        "type": "npm",
+        "script": "build-storybook",
+        "problemMatcher": []
+      },
+      {
         "label": "Build tokens",
         "type": "npm",
         "script": "tokens",
