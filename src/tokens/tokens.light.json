@@ -1,0 +1,770 @@
+{
+  "$description": "AI Design System — light theme (W3C Design Tokens format)",
+  "color": {
+    "palette": {
+      "indigo": {
+        "50": {
+          "$type": "color",
+          "$value": "#eef2ff",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 50."
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#e0e7ff",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 100."
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#c7d2fe",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 200."
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#a5b4fc",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 300."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#818cf8",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 400."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#6366f1",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 500."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#4f46e5",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 600."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#4338ca",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 700."
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#3730a3",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 800."
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#312e81",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 900."
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#1e1b4b",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw indigo 950."
+        }
+      },
+      "gray": {
+        "50": {
+          "$type": "color",
+          "$value": "#f8fafc",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 50."
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#f1f5f9",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 100."
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#e2e8f0",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 200."
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#cbd5e1",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 300."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#94a3b8",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 400."
+        },
+        "450": {
+          "$type": "color",
+          "$value": "#8190a6",
+          "$description": "Primitive. Lightest gray that holds 3:1 against white; feeds border-strong."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#64748b",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 500."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#475569",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 600."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#334155",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 700."
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#1e293b",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 800."
+        },
+        "850": {
+          "$type": "color",
+          "$value": "#162033",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 850."
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#0f172a",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw gray 900."
+        }
+      },
+      "green": {
+        "50": {
+          "$type": "color",
+          "$value": "#f0fdf4",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 50."
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#dcfce7",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 100."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#4ade80",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 400."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#22c55e",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 500."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#16a34a",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 600."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#15803d",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 700."
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#052e16",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw green 950."
+        }
+      },
+      "amber": {
+        "50": {
+          "$type": "color",
+          "$value": "#fffbeb",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 50."
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#fef3c7",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 100."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#fbbf24",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 400."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#f59e0b",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 500."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#d97706",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 600."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#b45309",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 700."
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#451a03",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw amber 950."
+        }
+      },
+      "red": {
+        "50": {
+          "$type": "color",
+          "$value": "#fef2f2",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 50."
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#fee2e2",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 100."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#f87171",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 400."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#ef4444",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 500."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#dc2626",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 600."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#b91c1c",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 700."
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#450a0a",
+          "$description": "Primitive. Use semantic tokens in designs; this is the raw red 950."
+        }
+      },
+      "white": {
+        "base": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "Primitive white."
+        }
+      },
+      "black": {
+        "base": {
+          "$type": "color",
+          "$value": "#000000",
+          "$description": "Primitive black."
+        }
+      }
+    },
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.palette.white.base}",
+        "$description": "Page and card background."
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.palette.gray.50}",
+        "$description": "Sidebars, AI message bubbles, quiet panels."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.palette.gray.100}",
+        "$description": "Neutral badges, chips, muted fills."
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{color.palette.gray.100}",
+        "$description": "Hover fill for Secondary/Ghost buttons and menu rows."
+      },
+      "pressed": {
+        "$type": "color",
+        "$value": "{color.palette.gray.200}",
+        "$description": "Pressed state of Secondary and Ghost buttons and tappable rows."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.palette.gray.100}",
+        "$description": "Disabled control fill; pair with text-disabled."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.palette.gray.450}",
+        "$description": "Toggle track when off, neutral swipe actions, sheet handles. Holds 3:1 against bg-default and bg-subtle (it marks a control)."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.palette.gray.900}",
+        "$description": "Tooltips and inverse surfaces; text-inverse on it."
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "rgba(15,23,42,0.45)",
+        "$description": "Scrim behind modals, drawers and sheets."
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.600}",
+        "$description": "Primary buttons, selected states, user chat bubbles. text-on-brand on it."
+      },
+      "brand-hover": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.700}",
+        "$description": "Hover state of bg-brand."
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.600}",
+        "$description": "Fill of selected controls: checked checkbox and radio, toggle on, slider and progress fill. Holds 3:1 against bg-default in both themes; icons on it use icon-on-brand."
+      },
+      "brand-subtle": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.50}",
+        "$description": "Brand badge, selected menu row, avatar initials."
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{color.palette.green.100}",
+        "$description": "Success badge background; text-success on it."
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "{color.palette.amber.100}",
+        "$description": "Warning badge background; text-warning on it."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.palette.red.600}",
+        "$description": "Destructive buttons. text-on-brand on it."
+      },
+      "danger-hover": {
+        "$type": "color",
+        "$value": "{color.palette.red.700}",
+        "$description": "Hover state of bg-danger."
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{color.palette.red.100}",
+        "$description": "Danger badge background; text-danger on it."
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.palette.gray.900}",
+        "$description": "Body and heading text on bg-default, bg-subtle, bg-muted."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.palette.gray.600}",
+        "$description": "Descriptions, captions, helper text on bg-default and bg-subtle."
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.palette.gray.500}",
+        "$description": "Input placeholders on bg-default and bg-subtle. Not on bg-muted (4.3:1)."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.palette.gray.400}",
+        "$description": "Disabled labels on bg-disabled. Not for readable content."
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{color.palette.white.base}",
+        "$description": "Text and icons on bg-brand and bg-danger."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.palette.white.base}",
+        "$description": "Text on bg-inverse."
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.600}",
+        "$description": "Links, selected tab/menu text, brand badge text."
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.palette.green.700}",
+        "$description": "Success text on bg-success-subtle."
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.palette.amber.700}",
+        "$description": "Warning text on bg-warning-subtle."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.palette.red.700}",
+        "$description": "Error messages and danger badge text."
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.palette.gray.200}",
+        "$description": "Decorative separation only: card outlines, dividers, table rules. Below 3:1 by design; never the only cue that something is a control."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.palette.gray.450}",
+        "$description": "Borders that identify a control: inputs, selects, checkboxes, radios, Secondary buttons. Holds 3:1 against bg-default and bg-subtle in both themes (WCAG 1.4.11)."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.500}",
+        "$description": "Focused input border; pair with the focus-ring shadow."
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.600}",
+        "$description": "Selected tab underline, brand outlines."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.palette.red.500}",
+        "$description": "Input in error state."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.palette.gray.200}",
+        "$description": "Disabled control borders."
+      }
+    },
+    "icon": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.palette.gray.900}",
+        "$description": "Default icon color."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.palette.gray.500}",
+        "$description": "Icons inside inputs, close buttons, chevrons."
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{color.palette.white.base}",
+        "$description": "Icons on bg-brand."
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.palette.indigo.600}",
+        "$description": "Brand-colored icons, the sparkle mark."
+      }
+    }
+  },
+  "spacing": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "No gap."
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$description": "Toggle knob inset, badge vertical padding."
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Label-to-field gap, icon-to-text in tight rows."
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Gap between buttons, menu padding, small button icon gap."
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Small button & input horizontal padding, chat avatar gap."
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Medium button padding, card gap, sidebar padding."
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Card & modal padding, gap between chat messages."
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "Section padding, conversation top/bottom padding."
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "Large section spacing."
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "64px",
+      "$description": "Page-level spacing."
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "Full-bleed panels."
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$description": "Checkboxes, menu rows."
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "The default: buttons, inputs, selects, badges, cards."
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Modals, chat bubbles, menus."
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Bottom sheets and action sheets (top corners)."
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "$description": "Avatars, toggle tracks."
+    }
+  },
+  "size": {
+    "touch": {
+      "$type": "dimension",
+      "$value": "44px",
+      "$description": "Minimum tap target on touch screens (buttons, list rows, icons in bars)."
+    },
+    "row": {
+      "$type": "dimension",
+      "$value": "56px",
+      "$description": "Mobile list row height with one line of text."
+    },
+    "row-2": {
+      "$type": "dimension",
+      "$value": "72px",
+      "$description": "Mobile list row height with title and subtitle."
+    },
+    "bar": {
+      "$type": "dimension",
+      "$value": "56px",
+      "$description": "Mobile top app bar height."
+    },
+    "bottom-nav": {
+      "$type": "dimension",
+      "$value": "64px",
+      "$description": "Mobile bottom navigation height, before the safe-area inset."
+    },
+    "fab": {
+      "$type": "dimension",
+      "$value": "56px",
+      "$description": "Floating action button."
+    }
+  },
+  "font": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": [
+        "Plus Jakarta Sans",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "sans-serif"
+      ]
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": [
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Consolas",
+        "monospace"
+      ]
+    }
+  },
+  "typography": {
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "fontWeight": 700,
+        "letterSpacing": "-1px"
+      },
+      "$description": "Hero titles, empty-state headlines."
+    },
+    "heading-h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.5px"
+      },
+      "$description": "Page titles."
+    },
+    "heading-h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "28px",
+        "lineHeight": "36px",
+        "fontWeight": 600,
+        "letterSpacing": "-0.25px"
+      },
+      "$description": "Section titles."
+    },
+    "heading-h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "22px",
+        "lineHeight": "30px",
+        "fontWeight": 600,
+        "letterSpacing": "0px"
+      },
+      "$description": "Subsections, modal titles on large dialogs."
+    },
+    "heading-h4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "18px",
+        "lineHeight": "26px",
+        "fontWeight": 600,
+        "letterSpacing": "0px"
+      },
+      "$description": "Card titles, modal titles, app header."
+    },
+    "body-large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "18px",
+        "lineHeight": "28px",
+        "fontWeight": 400,
+        "letterSpacing": "0px"
+      },
+      "$description": "Lead paragraphs."
+    },
+    "body-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": 400,
+        "letterSpacing": "0px"
+      },
+      "$description": "Default reading text."
+    },
+    "body-small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": 400,
+        "letterSpacing": "0px"
+      },
+      "$description": "UI text, chat messages, inputs, descriptions."
+    },
+    "label-large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": 600,
+        "letterSpacing": "0px"
+      },
+      "$description": "Large buttons, emphasized labels."
+    },
+    "label-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": 600,
+        "letterSpacing": "0px"
+      },
+      "$description": "Buttons, form labels, tabs."
+    },
+    "label-small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": 600,
+        "letterSpacing": "0.2px"
+      },
+      "$description": "Badges, sender names, overlines."
+    },
+    "label-xsmall": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "11px",
+        "lineHeight": "14px",
+        "fontWeight": 600,
+        "letterSpacing": "0.2px"
+      },
+      "$description": "Bottom nav labels, citation numbers, keyboard keys, count badges. The smallest text in the system."
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0px"
+      },
+      "$description": "Helper text, timestamps, fine print."
+    },
+    "code": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.mono}",
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "fontWeight": 400,
+        "letterSpacing": "0px"
+      },
+      "$description": "Code blocks and inline code."
+    }
+  },
+  "shadow": {
+    "shadow-sm": {
+      "$type": "shadow",
+      "$value": "0 1px 2px rgba(15,23,42,0.06)",
+      "$description": "Toggle knob, subtle lift."
+    },
+    "shadow-md": {
+      "$type": "shadow",
+      "$value": "0 4px 8px -2px rgba(15,23,42,0.08), 0 2px 4px -2px rgba(15,23,42,0.06)",
+      "$description": "Elevated cards."
+    },
+    "shadow-lg": {
+      "$type": "shadow",
+      "$value": "0 12px 24px -4px rgba(15,23,42,0.10), 0 4px 8px -4px rgba(15,23,42,0.06)",
+      "$description": "Menus, modals."
+    },
+    "focus-ring": {
+      "$type": "shadow",
+      "$value": "0 0 0 2px #ffffff, 0 0 0 4px #6366f1",
+      "$description": "Keyboard focus on every interactive control: a 2px gap in the page color, then a solid 2px indigo ring (4.5:1 on white, 6:1 on dark)."
+    },
+    "focus-ring-inset": {
+      "$type": "shadow",
+      "$value": "inset 0 0 0 2px #6366f1",
+      "$description": "Keyboard focus for full-bleed rows and tabs where an outer ring would be clipped (list items, bottom nav, conversation rows)."
+    }
+  }
+}

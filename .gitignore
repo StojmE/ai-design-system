@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-playground/
+dist-guide/
+.DS_Store
+*.log

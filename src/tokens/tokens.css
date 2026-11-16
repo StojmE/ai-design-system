@@ -1,0 +1,227 @@
+/* AI Design System tokens — generated from tokens.json. Do not edit by hand. */
+
+:root {
+  --indigo-50: #eef2ff;
+  --indigo-100: #e0e7ff;
+  --indigo-200: #c7d2fe;
+  --indigo-300: #a5b4fc;
+  --indigo-400: #818cf8;
+  --indigo-500: #6366f1;
+  --indigo-600: #4f46e5;
+  --indigo-700: #4338ca;
+  --indigo-800: #3730a3;
+  --indigo-900: #312e81;
+  --indigo-950: #1e1b4b;
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-450: #8190a6;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-800: #1e293b;
+  --gray-850: #162033;
+  --gray-900: #0f172a;
+  --green-50: #f0fdf4;
+  --green-100: #dcfce7;
+  --green-400: #4ade80;
+  --green-500: #22c55e;
+  --green-600: #16a34a;
+  --green-700: #15803d;
+  --green-950: #052e16;
+  --amber-50: #fffbeb;
+  --amber-100: #fef3c7;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+  --amber-600: #d97706;
+  --amber-700: #b45309;
+  --amber-950: #451a03;
+  --red-50: #fef2f2;
+  --red-100: #fee2e2;
+  --red-400: #f87171;
+  --red-500: #ef4444;
+  --red-600: #dc2626;
+  --red-700: #b91c1c;
+  --red-950: #450a0a;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+:root, [data-theme="light"] {
+  --bg-default: var(--white);
+  --bg-subtle: var(--gray-50);
+  --bg-muted: var(--gray-100);
+  --bg-hover: var(--gray-100);
+  --bg-pressed: var(--gray-200);
+  --bg-disabled: var(--gray-100);
+  --bg-strong: var(--gray-450);
+  --bg-inverse: var(--gray-900);
+  --bg-overlay: rgba(15,23,42,0.45);
+  --bg-brand: var(--indigo-600);
+  --bg-brand-hover: var(--indigo-700);
+  --bg-selected: var(--indigo-600);
+  --bg-brand-subtle: var(--indigo-50);
+  --bg-success-subtle: var(--green-100);
+  --bg-warning-subtle: var(--amber-100);
+  --bg-danger: var(--red-600);
+  --bg-danger-hover: var(--red-700);
+  --bg-danger-subtle: var(--red-100);
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-600);
+  --text-placeholder: var(--gray-500);
+  --text-disabled: var(--gray-400);
+  --text-on-brand: var(--white);
+  --text-inverse: var(--white);
+  --text-brand: var(--indigo-600);
+  --text-success: var(--green-700);
+  --text-warning: var(--amber-700);
+  --text-danger: var(--red-700);
+  --border-default: var(--gray-200);
+  --border-strong: var(--gray-450);
+  --border-focus: var(--indigo-500);
+  --border-brand: var(--indigo-600);
+  --border-danger: var(--red-500);
+  --border-disabled: var(--gray-200);
+  --icon-primary: var(--gray-900);
+  --icon-secondary: var(--gray-500);
+  --icon-on-brand: var(--white);
+  --icon-brand: var(--indigo-600);
+  --shadow-sm: 0 1px 2px rgba(15,23,42,0.06);
+  --shadow-md: 0 4px 8px -2px rgba(15,23,42,0.08), 0 2px 4px -2px rgba(15,23,42,0.06);
+  --shadow-lg: 0 12px 24px -4px rgba(15,23,42,0.10), 0 4px 8px -4px rgba(15,23,42,0.06);
+  --focus-ring: 0 0 0 2px #ffffff, 0 0 0 4px #6366f1;
+  --focus-ring-inset: inset 0 0 0 2px #6366f1;
+}
+
+[data-theme="dark"] {
+  --bg-default: var(--gray-900);
+  --bg-subtle: var(--gray-850);
+  --bg-muted: var(--gray-800);
+  --bg-hover: var(--gray-800);
+  --bg-pressed: var(--gray-700);
+  --bg-disabled: var(--gray-800);
+  --bg-strong: var(--gray-500);
+  --bg-inverse: var(--gray-50);
+  --bg-overlay: rgba(0,0,0,0.6);
+  --bg-brand: var(--indigo-600);
+  --bg-brand-hover: var(--indigo-700);
+  --bg-selected: var(--indigo-500);
+  --bg-brand-subtle: var(--indigo-950);
+  --bg-success-subtle: var(--green-950);
+  --bg-warning-subtle: var(--amber-950);
+  --bg-danger: var(--red-600);
+  --bg-danger-hover: var(--red-700);
+  --bg-danger-subtle: var(--red-950);
+  --text-primary: var(--gray-50);
+  --text-secondary: var(--gray-400);
+  --text-placeholder: var(--gray-400);
+  --text-disabled: var(--gray-600);
+  --text-on-brand: var(--white);
+  --text-inverse: var(--gray-900);
+  --text-brand: var(--indigo-300);
+  --text-success: var(--green-400);
+  --text-warning: var(--amber-400);
+  --text-danger: var(--red-400);
+  --border-default: var(--gray-800);
+  --border-strong: var(--gray-500);
+  --border-focus: var(--indigo-400);
+  --border-brand: var(--indigo-400);
+  --border-danger: var(--red-400);
+  --border-disabled: var(--gray-800);
+  --icon-primary: var(--gray-50);
+  --icon-secondary: var(--gray-400);
+  --icon-on-brand: var(--white);
+  --icon-brand: var(--indigo-300);
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 8px -2px rgba(0,0,0,0.5), 0 2px 4px -2px rgba(0,0,0,0.4);
+  --shadow-lg: 0 12px 24px -4px rgba(0,0,0,0.6), 0 4px 8px -4px rgba(0,0,0,0.4);
+  --focus-ring: 0 0 0 2px #0f172a, 0 0 0 4px #818cf8;
+  --focus-ring-inset: inset 0 0 0 2px #818cf8;
+}
+
+:root {
+  --space-none: 0px;
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 48px;
+  --space-4xl: 64px;
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  --size-touch: 44px;
+  --size-row: 56px;
+  --size-row-2: 72px;
+  --size-bar: 56px;
+  --size-bottom-nav: 64px;
+  --size-fab: 56px;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg-default: var(--gray-900);
+    --bg-subtle: var(--gray-850);
+    --bg-muted: var(--gray-800);
+    --bg-hover: var(--gray-800);
+    --bg-pressed: var(--gray-700);
+    --bg-disabled: var(--gray-800);
+    --bg-strong: var(--gray-500);
+    --bg-inverse: var(--gray-50);
+    --bg-overlay: rgba(0,0,0,0.6);
+    --bg-brand: var(--indigo-600);
+    --bg-brand-hover: var(--indigo-700);
+    --bg-selected: var(--indigo-500);
+    --bg-brand-subtle: var(--indigo-950);
+    --bg-success-subtle: var(--green-950);
+    --bg-warning-subtle: var(--amber-950);
+    --bg-danger: var(--red-600);
+    --bg-danger-hover: var(--red-700);
+    --bg-danger-subtle: var(--red-950);
+    --text-primary: var(--gray-50);
+    --text-secondary: var(--gray-400);
+    --text-placeholder: var(--gray-400);
+    --text-disabled: var(--gray-600);
+    --text-on-brand: var(--white);
+    --text-inverse: var(--gray-900);
+    --text-brand: var(--indigo-300);
+    --text-success: var(--green-400);
+    --text-warning: var(--amber-400);
+    --text-danger: var(--red-400);
+    --border-default: var(--gray-800);
+    --border-strong: var(--gray-500);
+    --border-focus: var(--indigo-400);
+    --border-brand: var(--indigo-400);
+    --border-danger: var(--red-400);
+    --border-disabled: var(--gray-800);
+    --icon-primary: var(--gray-50);
+    --icon-secondary: var(--gray-400);
+    --icon-on-brand: var(--white);
+    --icon-brand: var(--indigo-300);
+  }
+}
+
+.display { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 700; letter-spacing: -1px; }
+.heading-h1 { font-family: var(--font-sans); font-size: 36px; line-height: 44px; font-weight: 700; letter-spacing: -0.5px; }
+.heading-h2 { font-family: var(--font-sans); font-size: 28px; line-height: 36px; font-weight: 600; letter-spacing: -0.25px; }
+.heading-h3 { font-family: var(--font-sans); font-size: 22px; line-height: 30px; font-weight: 600; letter-spacing: 0px; }
+.heading-h4 { font-family: var(--font-sans); font-size: 18px; line-height: 26px; font-weight: 600; letter-spacing: 0px; }
+.body-large { font-family: var(--font-sans); font-size: 18px; line-height: 28px; font-weight: 400; letter-spacing: 0px; }
+.body-medium { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; letter-spacing: 0px; }
+.body-small { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; letter-spacing: 0px; }
+.label-large { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 600; letter-spacing: 0px; }
+.label-medium { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 600; letter-spacing: 0px; }
+.label-small { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.2px; }
+.label-xsmall { font-family: var(--font-sans); font-size: 11px; line-height: 14px; font-weight: 600; letter-spacing: 0.2px; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 400; letter-spacing: 0px; }
+.code { font-family: var(--font-mono); font-size: 13px; line-height: 20px; font-weight: 400; letter-spacing: 0px; }
