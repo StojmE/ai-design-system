@@ -18,6 +18,8 @@ body { margin: 0; background: var(--bg-default); color: var(--text-primary); fon
 .nav-link:hover { background: var(--bg-hover); color: var(--text-primary); }
 .nav-link.is-active { background: var(--bg-brand-subtle); color: var(--text-brand); font-weight: 600; }
 .nav-link:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.storybook-link { display: block; margin: var(--space-sm) var(--space-md) 0; padding: 8px 12px; border: 1px solid var(--border-default); border-radius: 8px; font-size: 14px; line-height: 20px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+.storybook-link:hover { background: var(--bg-hover, rgba(127,127,127,.12)); }
 .nav-empty { padding: var(--space-lg) var(--space-sm); font-size: 14px; color: var(--text-secondary); }
 .side-foot { padding: var(--space-md) var(--space-lg); border-top: 1px solid var(--border-default); display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--text-secondary); }
 .main { flex: 1; min-width: 0; }

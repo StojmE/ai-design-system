@@ -178,6 +178,7 @@ function App() {
           <a className="brand" href="#overview"><A.Avatar type="ai" /><span>AI Design System<small>Guide · {previews.length - 3} components</small></span></a>
           <A.Input icon="search" placeholder="Search" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Search the guide" />
         </div>
+        <a className="storybook-link" href={import.meta.env.BASE_URL + 'storybook/'} target="_blank" rel="noopener">Open Storybook <span aria-hidden="true">↗</span></a>
         <nav className="side-nav">
           {groups.map((g) => (
             <div key={g.name}>
