@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   root: 'playground',
+  base: '/ai-design-system/',
   plugins: [react()],
   server: { open: true },
   build: { outDir: '../dist-guide', emptyOutDir: true },
